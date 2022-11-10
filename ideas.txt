@@ -1,0 +1,29 @@
+Phosphor:
+    - high-level abstraction language
+    - contains:
+        - classes
+        - enums
+        - structures
+        - aritmetics
+    - all variable types are dynamically typed but there will be "var" specificator which stands for no specified data typed
+    - language will be as simple as it can be (syntax will look similar to your favourite book chapter) 
+
+
+
+TOKENS:
+
+*aritmetic operations:
+    +
+    -
+    *
+    /
+    %
+    ^
+
+*data types:
+    STRING
+    CHAR
+    BOOLEAN
+    INTEGER
+    FLOAT
+    DOUBLE
