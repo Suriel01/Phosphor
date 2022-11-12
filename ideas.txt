@@ -13,17 +13,24 @@ Phosphor:
 TOKENS:
 
 *aritmetic operations:
-    +
-    -
-    *
-    /
-    %
-    ^
+    + //addition
+    - //substraction
+    * //multiplication
+    : //division
+    % //modulo
+    ^ //power
 
 *data types:
-    STRING
+    STRING //character literal
     CHAR
-    BOOLEAN
+    BOOLEAN //true,false,unpredictable
     INTEGER
+    SHORT
+    BIT
     FLOAT
     DOUBLE
+
+
+
+#Compilation command
+g++ -W -Wall -s *.cpp -o [name]
